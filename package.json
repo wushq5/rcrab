@@ -1,0 +1,25 @@
+{
+  "name": "rcrab",
+  "version": "1.0.0",
+  "description": "node cmd tool",
+  "main": "index.js",
+  "bin": {
+    "rcrab": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wushq5/rcrab.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "RCrab Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wushq5/rcrab/issues"
+  },
+  "homepage": "https://github.com/wushq5/rcrab#readme"
+}
