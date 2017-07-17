@@ -64,7 +64,7 @@ const start = () => {
     enableDestroy(server);
 }
 
-if (argv._ && argv._[0] === 'dev-srv') {
+if (argv._ && argv._[0] === 'server') {
     if (argv.p) {
         port = parseInt(argv.p);
     }

@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"rout",
-				"routerFile"
+				"wa",
+				"watch"
+			],
+			[
+				"ret",
+				"retData"
+			],
+			[
+				"rou",
+				"router"
 			],
 			[
 				"db",
-				"dbFile"
+				"dbData"
+			],
+			[
+				"json",
+				"jsonServer"
+			],
+			[
+				"rout",
+				"routerFile"
 			],
 			[
 				"lo",
@@ -498,10 +514,6 @@
 			[
 				"key",
 				"keyObj"
-			],
-			[
-				"sum",
-				"summary_node"
 			]
 		]
 	},
@@ -511,7 +523,7 @@
 			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 60,
+				"buffer_size": 85,
 				"line_ending": "Windows",
 				"name": "index.js"
 			}
@@ -525,36 +537,27 @@
 			}
 		},
 		{
+			"file": "jobs/eslint/index.js",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "jobs/server/index.js",
 			"settings":
 			{
-				"buffer_size": 717,
-				"line_ending": "Windows",
-				"name": "index.js"
-			}
-		},
-		{
-			"file": "jobs/server/db.json",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 2075,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "jobs/server/router.json",
+			"file": "/D/新建文件夹/test-eslint/t.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 28,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 617,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -621,10 +624,20 @@
 	[
 		"/D/proj/rcrab",
 		"/D/proj/rcrab/jobs",
+		"/D/proj/rcrab/jobs/eslint",
 		"/D/proj/rcrab/jobs/server"
 	],
 	"file_history":
 	[
+		"/D/proj/rcrab/jobs/server/index.js",
+		"/D/Code/nodejs/crawler/.eslintrc.js",
+		"/D/proj/rcrab/package.json",
+		"/D/Code/nodejs/crawler/main.js",
+		"/D/proj/rcrab/jobs/eslint/index.js",
+		"/D/新建文件夹/test/db.json",
+		"/D/新建文件夹/test/router.json",
+		"/D/proj/rcrab/jobs/server/db.json",
+		"/D/proj/rcrab/jobs/server/router.json",
 		"/D/新建文件夹/mumble-next/mumble.js",
 		"/D/proj/rcrab/.gitignore",
 		"/D/新建文件夹/mumble-next/tasks/server/server.js",
@@ -632,7 +645,6 @@
 		"/D/新建文件夹/mumble-next/tasks/develop/lint.js",
 		"/D/新建文件夹/mumble-next/tasks/build/wireApp.js",
 		"/D/新建文件夹/mumble-next/tasks/build/build.js",
-		"/D/proj/rcrab/package.json",
 		"/C/Users/树强/.ssh/config",
 		"/C/Users/树强/.ssh/wushq5.pub",
 		"/E/TEC/git_key/id_rsa.pub",
@@ -731,7 +743,6 @@
 		"/D/Code/vue/op_url_tool/gulgfile.js",
 		"/D/Code/vue/op_url_tool/package.json",
 		"/D/My/program/proj/baike_spider/main.py",
-		"/D/Code/nodejs/crawler/main.js",
 		"/D/Code/nodejs/crawler/html_parser.js",
 		"/D/Code/nodejs/crawler/downloader.js",
 		"/D/Code/nodejs/crawler/url_manager.js",
@@ -745,14 +756,7 @@
 		"/D/My/program/proj/baike_spider/url_manager.py",
 		"/D/Code/vue/wsq_hello/index.js",
 		"/D/Code/vue/npm_test/app.js",
-		"/D/Code/nodejs/demo/crawler/https.js",
-		"/D/Code/nodejs/demo/beginning/server.js",
-		"/D/Code/vue/npm_test/index.html",
-		"/D/Code/vue/npm_test/package.json",
-		"/D/Code/vue/npm_test/node_modules/wsq_hello/package.json",
-		"/D/Code/vue/npm_test/node_modules/wsq_hello/index.js",
-		"/D/Code/vue/op_url_tool/css/readme.md",
-		"/D/Code/vue/op_url_tool/url.json"
+		"/D/Code/nodejs/demo/crawler/https.js"
 	],
 	"find":
 	{
@@ -807,15 +811,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 60,
+						"buffer_size": 85,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								58
+								77,
+								83
 							]
 						],
 						"settings":
@@ -830,7 +834,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -867,29 +871,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "jobs/server/index.js",
+					"file": "jobs/eslint/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 717,
+						"buffer_size": 742,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								47
+								718,
+								718
 							]
 						],
 						"settings":
 						{
-							"auto_name": "index.js",
-							"is_init_dirty_state": false,
-							"is_xml": false,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -900,54 +901,27 @@
 				},
 				{
 					"buffer": 3,
-					"file": "jobs/server/db.json",
+					"file": "jobs/server/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								275,
+								275
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "jobs/server/router.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -957,12 +931,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "package.json",
+					"buffer": 4,
+					"file": "/D/新建文件夹/test-eslint/t.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 617,
+						"buffer_size": 28,
 						"regions":
 						{
 						},
@@ -975,17 +949,14 @@
 						],
 						"settings":
 						{
-							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/npm JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
